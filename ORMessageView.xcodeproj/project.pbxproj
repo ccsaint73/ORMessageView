@@ -21,6 +21,7 @@
 		BC1B63F21B54B6A0001184F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1B63D41B54B6A0001184F7 /* UIKit.framework */; };
 		BC1B63FA1B54B6A0001184F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC1B63F81B54B6A0001184F7 /* InfoPlist.strings */; };
 		BC1B63FC1B54B6A0001184F7 /* ORMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B63FB1B54B6A0001184F7 /* ORMessageViewTests.m */; };
+		BC1B64491B54E916001184F7 /* ORMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B64481B54E916001184F7 /* ORMessageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BC1B63F71B54B6A0001184F7 /* ORMessageViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORMessageViewTests-Info.plist"; sourceTree = "<group>"; };
 		BC1B63F91B54B6A0001184F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC1B63FB1B54B6A0001184F7 /* ORMessageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORMessageViewTests.m; sourceTree = "<group>"; };
+		BC1B64471B54E916001184F7 /* ORMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORMessageView.h; sourceTree = "<group>"; };
+		BC1B64481B54E916001184F7 /* ORMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORMessageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +115,9 @@
 		BC1B63D61B54B6A0001184F7 /* ORMessageView */ = {
 			isa = PBXGroup;
 			children = (
-				BC1B63DF1B54B6A0001184F7 /* ORAppDelegate.h */,
-				BC1B63E01B54B6A0001184F7 /* ORAppDelegate.m */,
-				BC1B63E21B54B6A0001184F7 /* Main.storyboard */,
 				BC1B63E51B54B6A0001184F7 /* ORViewController.h */,
 				BC1B63E61B54B6A0001184F7 /* ORViewController.m */,
-				BC1B63E81B54B6A0001184F7 /* Images.xcassets */,
+				BC1B64461B54E901001184F7 /* ORMessageView */,
 				BC1B63D71B54B6A0001184F7 /* Supporting Files */,
 			);
 			path = ORMessageView;
@@ -126,6 +126,10 @@
 		BC1B63D71B54B6A0001184F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC1B63DF1B54B6A0001184F7 /* ORAppDelegate.h */,
+				BC1B63E01B54B6A0001184F7 /* ORAppDelegate.m */,
+				BC1B63E21B54B6A0001184F7 /* Main.storyboard */,
+				BC1B63E81B54B6A0001184F7 /* Images.xcassets */,
 				BC1B63D81B54B6A0001184F7 /* ORMessageView-Info.plist */,
 				BC1B63D91B54B6A0001184F7 /* InfoPlist.strings */,
 				BC1B63DC1B54B6A0001184F7 /* main.m */,
@@ -150,6 +154,15 @@
 				BC1B63F81B54B6A0001184F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC1B64461B54E901001184F7 /* ORMessageView */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B64471B54E916001184F7 /* ORMessageView.h */,
+				BC1B64481B54E916001184F7 /* ORMessageView.m */,
+			);
+			path = ORMessageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 				BC1B63DD1B54B6A0001184F7 /* main.m in Sources */,
 				BC1B63E11B54B6A0001184F7 /* ORAppDelegate.m in Sources */,
 				BC1B63E71B54B6A0001184F7 /* ORViewController.m in Sources */,
+				BC1B64491B54E916001184F7 /* ORMessageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ORViewController.h"
+#import "ORMessageView.h"
 
 @interface ORViewController ()
 
@@ -18,12 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [ORMessageView showMessage:@"toast演示"];
 }
 
 @end
